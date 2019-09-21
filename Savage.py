@@ -13,10 +13,10 @@ from discord.ext.commands import Bot
 from discord.voice_client import VoiceClient
 
 prefix = 'us.'
-
+TOKEN = INCERT TOKEN HERE
 client = commands.Bot(command_prefix='us.')
 client.remove_command('help')
-servers = [564685379173613568]
+servers = [INSERT SERVER ID HERE]
 bot_location = "E:\\Coding_Practice\\Python\\Savage_Discord_Bot"
 log_location = bot_location + "\\Savage_Logs"
 log_name = time.strftime("%m_%d_%y.txt")
