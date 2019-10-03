@@ -13,7 +13,7 @@ from discord.ext.commands import Bot
 from discord.voice_client import VoiceClient
 
 prefix = 'us.'
-TOKEN = INCERT TOKEN HERE
+TOKEN = INSERT TOKEN HERE
 client = commands.Bot(command_prefix='us.')
 client.remove_command('help')
 servers = [INSERT SERVER ID HERE]
